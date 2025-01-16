@@ -1,0 +1,139 @@
+{
+  "Index": {
+    "title": "Welcome to Admitium",
+    "description": "Your trusted platform for admissions"
+  },
+
+  "Main": {
+    "title": "Get admitted to your dream college for $10",
+    "subtitle": "All-in-one platform for admissions",
+    "getAccess": "Get Access",
+    "invitations": "Invitations from 25+ universities",
+    "howItWorks": "How does the platform work?",
+    "duration": "15 min"
+  },
+  "SpecialOffer": {
+    "mobile": "$1 per essay! until Nov 24",
+    "desktop": "Special offer - $1 per essay! until Nov 24",
+    "action": "Learn more"
+  },
+  "Features": {
+    "title": "Meet admit.kz",
+    "card1": {
+      "title": "Writes perfectly, <span style='color: #111111;'>fast</span>, easy",
+      "oldTime": "2 months",
+      "newTime": "10 minutes"
+    },
+    "card2": {
+      "title": "Apply confidently and <span style='color: #111111;'>stress-free.</span>",
+      "number": "100+",
+      "text": "video lessons"
+    },
+    "card3": {
+      "title": "Get your essay <span style='color: #111111;'>today</span>",
+      "number": "200+",
+      "text": "Based on best\nIvy League essays"
+    },
+    "card4": {
+      "title": "Write <span style='color: #111111;'>any</span> essay"
+    },
+    "card5": {
+      "title": "Platform <span class='text-white'>all in one</span>"
+    }
+  },
+  "CTA": {
+    "footer": {
+      "mobile": "Start now?",
+      "desktop": "Ready to invest in your future?",
+      "button": "Let's go"
+    },
+    "section": {
+      "title": "Ready to invest in your future?",
+      "button": "Let's go"
+    }
+  },
+  "FAQ": {
+    "title": "Got Questions?",
+    "items": [
+      {
+        "question": "What is the difference between your AI and ChatGPT?",
+        "answer": "Our AI is trained on 200 successful Ivy League personal statements, supplemental essays and recommendation letters. It also has exclusive content on what qualities and characteristics Ivy League are looking for in applicants and uses that information to craft perfect essays. Unlike ChatGPT, It knows exactly what to write and how to write it."
+      },
+      {
+        "question": "Isn’t your AI detectable?",
+        "answer": "It is detectable, but it is still the most powerful tool in writing perfect drafts in minutes. There are millions of tools for editing and humanizing your content, so it is not a problem"
+      },
+      {
+        "question": "I know nothing about admissions, is this suitable for me?",
+        "answer": "Yes! This program starts teaching from absolute zero."
+      },
+      {
+        "question": "I'm in 7th grade, is it too early for me?",
+        "answer": "No! The earlier you start, the better your chances of getting into the world's best universities. It's best to start preparing in grades 7-8. Considering that the materials will stay with you forever - this is the best investment right now!"
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "Pricing Plans",
+    "yearlyBetter": "Better value yearly",
+    "total": "Total",
+    "currentPlan": "Current Plan",
+    "oneTimePayment": "One-time payment",
+    "monthlySubscription": "Monthly subscription",
+    "seasonSubscription": "3-month subscription",
+    "seasonPeriod": "for 3 months",
+    "perMonth": "/mo",
+    "perSeason": "/3mo",
+    "success": {
+      "heading": {
+        "default": "Welcome to AI + Platform!",
+        "tier1": "Welcome to AI + Platform!",
+        "tier2": "Welcome to AI + Platform!",
+        "tier3": "Welcome to AI + Platform!"
+      },
+      "message": {
+        "default": "You can start writing essays.",
+        "tier1": "You can start writing essays.",
+        "tier2": "You can start writing essays.",
+        "tier3": "Let's start your admission journey. To start working with the platform, please write to @admitkz on Telegram."
+      }
+    },
+    "plans": {
+      "tier1": {
+        "title": "$1 per essay",
+        "features": ["Write one essay with AI", "24-hour platform access"],
+        "footnote": "One-time purchase"
+      },
+      "tier2": {
+        "title": "AI",
+        "features": [
+          "AI platform access",
+          "Choose ideal country and university",
+          "Extracurricular activities, awards, achievements and projects",
+          "Write main essay (Personal Statement/Motivational Letter) with AI",
+          "Write supplemental essays with AI",
+          "AI recommendation letters"
+        ],
+        "footnote": "Cancel anytime"
+      },
+      "tier3": {
+        "title": "AI + Platform",
+        "features": [
+          "All AI features",
+          "Choose ideal country and university",
+          "Extracurricular activities, awards, achievements and projects",
+          "IELTS preparation",
+          "SAT preparation",
+          "University application submission",
+          "Full grant application"
+        ],
+        "footnote": "Full refund within 24 hours for any reason"
+      }
+    },
+    "offers": {
+      "oneEssay": "1 essay",
+      "ai": "AI",
+      "aiPlatform": "AI + Platform"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+// User - Associated with a clerk user
+model User {
+  id          String    @id @default(cuid())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  email       String?   @unique
+  clerkUserId String?   @unique
+  stripeCustomerId String?  @unique
+
+  planTier        PlanTier  @default(TIER0)
+  planPeriod      PlanPeriod?
+  hasUsedSpecialOffer Boolean @default(false)
+
+
+  tokenUsage  Int       @default(0)
+  essays      Essay[]
+}
+
+model Essay {
+  id          String      @id @default(cuid())
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  title       String
+  content     String      @db.Text
+  prompt      String      @db.Text
+  topic       String
+  type        EssayType
+  QA          Json
+  userId      String
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+enum EssayType {
+  PERSONAL_STATEMENT
+  SUPPLEMENTAL
+  RECOMMENDATION
+}
+
+enum PlanTier {
+  TIER0  // Free
+  TIER1  // AI only
+  TIER2  // Platform + AI
+}
+
+enum PlanPeriod {
+  ONE_TIME
+  MONTHLY
+  SEASON
+}
