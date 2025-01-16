@@ -12,7 +12,6 @@ type BrainstormMode = {
 
 export const CTA_LINK = "/essay";
 
-// Content
 export const COMMON_APP_PROMPTS: Prompt[] = [
   {
     text: "Some students have a background, identity, interest, or talent that is so meaningful they believe their application would be incomplete without it. If this sounds like you, then please share your story.",
