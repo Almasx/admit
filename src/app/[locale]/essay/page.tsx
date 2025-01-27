@@ -6,7 +6,7 @@ import { CreateEssay } from "~/app/[locale]/essay/(components)/create-essay";
 import { cn } from "~/lib/utils";
 import Link from "next/link";
 
-const SUPPORT_LINK = "https://t.me/admitkz";
+const SUPPORT_LINK = "https://t.me/admitcom";
 
 export default async function Home() {
   const { userId } = await auth();
@@ -35,7 +35,7 @@ export default async function Home() {
           href={SUPPORT_LINK}
           className="text-neutral-500 bg-[#EFEFEF] rounded-full tracking-tighter leading-4 flex items-center px-2 h-8 w-fit font-medium"
         >
-          Support
+          Join Private Community
         </Link>
       </div>
 
